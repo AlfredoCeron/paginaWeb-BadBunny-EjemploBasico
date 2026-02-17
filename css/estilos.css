@@ -1,0 +1,9 @@
+/* Layout para alinear la imagen al lado de la lista de albumes */
+.albumes-contenido {
+  display: flex; /* Utiliza flexbox para alinear la imagen y la lista en una fila */
+  gap: 200px; /* Espacio entre la imagen y la lista */
+  align-items: flex-start; /* Alinea la imagen y la lista al inicio del contenedor */
+  flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas más pequeñas */
+  background-color: black;
+  padding: 20px;
+}
