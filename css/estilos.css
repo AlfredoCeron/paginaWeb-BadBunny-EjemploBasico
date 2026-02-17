@@ -7,3 +7,7 @@
   background-color: black;
   padding: 20px;
 }
+/* Estilo para negritas de titulos de las canciones populares */
+#canciones li {
+  font-weight: bold;
+}
