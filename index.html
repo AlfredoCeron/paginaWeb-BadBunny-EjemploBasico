@@ -33,11 +33,12 @@
         <a href="#canciones">Canciones populares</a>
         <a href="#superBowl">Super Bowl LX</a>
         <a href="#redesSociales">Redes Sociales</a>
-        <a href="encuesta">Fan</a>
+        <a href="#encuesta">Fan</a>
       </nav>
     </header>
 
     <main>
+      <br /><br />
       <section id="albumes">
         <h2>Álbumes</h2>
         <div class="albumes-contenido">
@@ -242,6 +243,52 @@
         ></iframe>
       </section>
       <br /><br />
+
+      <section id="encuesta">
+        <h2>¡Fan de Bad Bunny! 🐰</h2>
+        <form>
+          <label for="album">Álbum favorito:</label>
+          <select name="nameAlbum" id="album">
+            <option value="x100pre ">X 100PRE</option>
+            <option value="oasis">Oasis</option>
+            <option value="yhlqmdlg">YHLQMDLG</option>
+            <option value="lasQueNoIbanASalir">Las que no iban a salir</option>
+            <option value="eutdm">El Último Tour Del Mundo</option>
+            <option value="uvst">Un Verano Sin Ti</option>
+            <option value="nslqvapm">
+              Nadie sabe lo que va a pasar mañana
+            </option>
+            <option value="dtmf">DeBí TiRAR Más FOTos</option></select
+          ><br /><br />
+          <label for="cancion">Canción favorita:</label>
+          <input
+            type="text"
+            id="cancion"
+            name="cancion"
+            placeholder="Moscow Mule"
+          /><br /><br />
+          <label for="colaboracion">Colaboración favorita:</label>
+          <input
+            type="text"
+            id="colaboracion"
+            name="colaboracion"
+            placeholder="J Balvin"
+          /><br /><br />
+
+          <label for="opinionSB"
+            >¿Qué te pareció su presentación en el Super Bowl LX?:</label
+          ><br />
+          <textarea id="opinionSB" name="opinionSB"></textarea>
+          <br /><br />
+
+          <label>
+            <input type="checkbox" required />
+            Estoy siendo 100% honesto con mis respuestas
+          </label>
+          <br /><br />
+          <button type="submit">Contestar</button>
+        </form>
+      </section>
     </main>
     <footer>
       <p>© 2024 Bad Bunny Fan Page. Todos los derechos reservados.</p>
